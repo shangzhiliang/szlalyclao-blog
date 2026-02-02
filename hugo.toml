@@ -1,0 +1,19 @@
+baseURL = 'https://www.szlalyclao.cn/'
+languageCode = 'zh-CN'
+title = 'Lever的博客'
+theme = 'hugo-coder'
+
+[params]
+  author = "lever"
+  description = "一个简单的博客"
+  info = "分享想法与技术"
+  keywords = "blog,tech"
+  avatarurl = ""
+  custom_css = []
+  custom_js = []
+  since = 2024
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
