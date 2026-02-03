@@ -5,15 +5,34 @@ theme = 'hugo-coder'
 
 [params]
   author = "lever"
-  description = "一个简单的博客"
-  info = "分享想法与技术"
-  keywords = "blog,tech"
+  description = "lever 的个人技术博客，分享编程、AI 和开源项目经验。"
+  info = "热爱技术，乐于分享"
+  keywords = "blog,tech,programming,AI,opensource"
   avatarurl = ""
   custom_css = []
   custom_js = []
   since = 2024
+  colorScheme = "auto"
+  enableTwemoji = true
 
 [taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
+
+# 添加社交媒体链接
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/shangzhiliang/"
+
+# 添加菜单项
+[[menu.main]]
+  name = "博客"
+  weight = 1
+  url  = "/posts/"
+[[menu.main]]
+  name = "关于"
+  weight = 2
+  url = "/about/"
